@@ -1,5 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
 main {
     display: flex;
+    align-items: flex-start;
 }
 #container {
   padding : 0 10%;
@@ -24,14 +32,37 @@ figure img {
 main {
     background-color: white;
 }
+
 nav {
     background-color:rgb(0, 162, 255) ;
-
+    text-decoration :underline;
+    padding: 10px 20px;
+    margin: 8px;
 }
+ul {
+    list-style-type: none
+    ;
+}
+
+li a{
+
+    color : white
+}
+article {
+    padding: 10px;
+}
+
 figure {
     background-color: rgb(0, 162, 255);
 }
+#Matt {
+  gap: 10;
+  
+}
+
 /*----------------Footer-----------------------------*/
 small {
     background-color: blue;
+    text-align: center;
+
 }
