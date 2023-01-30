@@ -6,15 +6,19 @@ main {
   background-color:yellow;
 }
 /* --------------------- HEADER ----------------------------- */
+
+
 header p {
     text-align: center;
     font-size: x-large;
     background-color: rgb(0, 162, 255);
+    margin: 0;
 }
 figure img {
     width: 100%;
     margin: 0;
     padding: 0;
+    margin: 0;
 }
 /*---------------------------Main-------------------------*/
 main {
@@ -22,6 +26,7 @@ main {
 }
 nav {
     background-color:rgb(0, 162, 255) ;
+
 }
 figure {
     background-color: rgb(0, 162, 255);
